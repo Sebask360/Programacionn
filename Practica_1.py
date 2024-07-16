@@ -15,17 +15,16 @@ print("Linea 1" "\n" "Linea 2" "\n" "Linea 3" )
 print("\n")
 
 #Practica String 2
-print(" A \t B \t C \n D \t E \t F \n G \t H \t I ")
+print("A\tB\tC\nD\tE\tF\nG\tH\tI")
 print("\n")
 
 #Practica Input 1
-
-input("Dime que estas estudiando ")
+estudio = input("Dime que estas estudiando ")
 print("Tu estas estudiando " + input("" "\n"))
 print("\n")
 
 #Practica Input 2
-input("¿En que pais vives?")
+pais = input("¿En que pais vives?")
 print("Tu vives en " + input("" "\n"))
 print("\n")
 
