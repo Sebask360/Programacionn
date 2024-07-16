@@ -19,7 +19,7 @@ try:
     # 6. El programa debe mostrar el doble del número ingresado.
     doble_numero = numero_entero * 2
     #print(doble_numero)
-    print(f"El doble de {numero_entero} es: {doble_numero}")
+    print(f"El doble de {numero_entero} es {doble_numero}")
     
 except ValueError:
     print("Error: Ingresa datos numéricos válidos para la edad y el número.")

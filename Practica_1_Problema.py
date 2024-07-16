@@ -9,7 +9,7 @@ edad = input("ingrese su edad: ")
 #3. El programa debe mostrar un mensaje de bienvenida utilizando el nombre y la edad proporcionados por el usuario.
 
 nombrecompleto = ((nombre)+ " " +str(apellido))
-print("Bienvenido ", (nombrecompleto) + " de edad, " + (edad), " años \n")
+print("Bienvenido ", (nombrecompleto) + "! Tienes " + (edad), " años \n")
 
 
 #4. El programa debe solicitar al usuario que ingrese un número.
@@ -26,4 +26,4 @@ doble_numero = num_int * 2
 print(doble_numero)
 print(type(doble_numero))
     
-
+print(f"El doble de {num_int} es {doble_numero}")
