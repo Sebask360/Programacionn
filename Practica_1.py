@@ -20,7 +20,33 @@ estudio = input("Dime que estas estudiando \n")
 pais = input("¿En que pais vives? \n")
 print("\n")
 
-print(f"Tu vives en {pais}")
-print(f"Tu estas estudiando {estudio}\n")
+print(f"Tu vives en: {pais}")
+print(f"Tu estas estudiando: {estudio}\n")
 
 #Practica Input 3
+nombre = input("Escribe tu nombre: ")
+apellido = input("Escribe tu apellido: ")
+
+print(f"Hola, {nombre} {apellido} \n")
+
+#Practicas con Variables 1
+
+nombre = "Tony Soprano"
+edad = 51 
+
+#Practicas con variables 2
+
+nombre = "Julia"
+apellido = "Roberts"
+#nombrecompleto = (nombre + " ", apellido) 
+nombrecompleto = ((nombre) + " " + str(apellido))
+
+print(nombrecompleto)
+
+#Practicas con Varables 3
+
+curso = "Python" 
+
+print("Estas tomando un curso de" + " " + str(curso))
+
+print("Estas tomando un curso de" + " " + curso)
